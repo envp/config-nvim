@@ -1,2 +1,4 @@
-setlocal tw=0
-setlocal wm=0
+set wrap
+set linebreak
+set textwidth=0
+set wrapmargin=0
