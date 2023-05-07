@@ -1,9 +1,9 @@
 setlocal nofoldenable
-setlocal foldmethod=syntax
+setlocal foldmethod=expr
+setlocal foldexpr=nvim_treesitter#foldexpr()
 setlocal foldnestmax=10
 setlocal foldlevel=2
 setlocal textwidth=80
 setlocal tabstop=2
 setlocal expandtab
 setlocal shiftwidth=2
-setlocal omnifunc=ccomplete#Complete()
