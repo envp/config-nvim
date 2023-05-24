@@ -36,7 +36,7 @@ require("lualine").setup({
         symbols = {
           modified = " ●", -- Text to show when the buffer is modified
           alternate_file = "# ", -- Text to show to identify the alternate file
-          directory = "", -- Text to show when the buffer is a directory
+          directory = "[D]", -- Text to show when the buffer is a directory
         },
         buffers_color = {
           active = "lualine_a_normal",
