@@ -109,6 +109,8 @@ lua << EOF
 
   vim.keymap.set({'n', 'v', 'o'}, '<leader>wea', vim.cmd.VimwikiAll2HTML, { desc = 'Export All Wiki files to HTML' })
   vim.keymap.set({'n', 'v', 'o'}, '<leader>ww', vim.cmd.VimwikiIndex, { desc = 'Open the wiki' })
+  vim.keymap.set({'n', 'v', 'o'}, '<leader>wtl', vim.cmd.VimwikiToggleListItem, { desc = 'Toggle checkbox state' })
+  vim.keymap.set({'n', 'v', 'o'}, '<leader>wlc', vim.cmd.VimwikiToggleListItem, { desc = 'Convert to checkbox item' })
 
   -- General keybindings
   vim.keymap.set({'n', 'v', 'o'}, '<C-l>', vim.cmd.nohlsearch, { silent = true, desc = 'Clear search highlighting' })

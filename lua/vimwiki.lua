@@ -13,7 +13,7 @@ EXPORTS.setup = function()
         ["language-python"] = "python",
       },
       syntax = "markdown",
-      ext = ".md",
+      ext = ".wiki.md",
       template_default = "default",
       template_ext = ".html",
       auto_tags = 1,
