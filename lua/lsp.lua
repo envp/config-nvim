@@ -112,7 +112,7 @@ EXPORTS.setup = function()
 
   local lsp_setup_data = {
     rust_analyzer = {
-      cmd = { "rustup", "run", "stable", "rust-analyzer" },
+      cmd = { "rustup", "run", "nightly", "rust-analyzer" },
       settings = {
         ["rust-analyzer"] = {
           cargo = {

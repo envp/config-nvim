@@ -49,7 +49,7 @@ lua << EOF
   -- Set up theme and overrides
   require('nightfox').setup({
     options = {
-        transparent = true,
+        transparent = false,
         styles = {
           comments = 'italic',
         }
